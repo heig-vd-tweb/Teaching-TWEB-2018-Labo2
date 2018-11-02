@@ -4,7 +4,7 @@ Components are great way to design and develop you UI using smaller, reusable pi
 
 The objective of this project (part 1/2) is to get familiar with React and learn how to think in components by authoring a small UI Component Design System. 
 
-In the next project (part 2/2) you'll use the components you built to create an actual app by adding data fetching with GraphQL and routing using React Router.
+In the next project (part 2/2) you'll use the components you built to create an actual app by adding data fetching with [GraphQL](https://graphql.org/) and routing using [React Router](https://reacttraining.com/react-router/web/guides/quick-start).
 
 
 
@@ -21,6 +21,8 @@ This lab might be your first experience with React or with a Javascript framewor
 Implement the issue detail page too. 
 
 ![react-issue-details](docs/react-issue-details.png)
+
+
 
 
 
@@ -61,6 +63,7 @@ If you're using storybook, check out this link to learn how to export your story
 - Render the issue’s Markdown text and its comments using something like [react-markdown](https://github.com/rexxars/react-markdown).
 - React components that implement Google's Material Design [material-ui](https://material-ui.com/)
 - React UI library that follows the Ant Design specification [ant.design](https://ant.design/docs/react/introduce)
+- Declarative routing for react [React router](https://reacttraining.com/react-router/web/guides/quick-start) 
 
 
 
