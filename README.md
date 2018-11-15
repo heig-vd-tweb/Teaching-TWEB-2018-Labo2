@@ -8,7 +8,7 @@ In the next project (part 2/2) you'll use the components you built to create an 
 
 
 
-## Objectives
+## Objectives (Part 1/2)
 
 This lab might be your first experience with React or with a Javascript framework, so we'll keep the scope small. Make a really simplified version of Github’s Issues page. Just focus on implementing the list of issues, and ignore the stuff in the header (search, filtering, stars, etc).
 
@@ -55,6 +55,18 @@ Use storybook to build and document your components.
 ### Step 4 - Deploy your UI Components Design System
 
 If you're using storybook, check out this link to learn how to export your storybook as a static App and deploy it somewhere (like Github Pages): https://storybook.js.org/basics/exporting-storybook/#deploying-to-github-pages
+
+
+
+## Objectives (Part 2/2)
+
+The final step for this lab is to use the components you built to create an fully functionnal app.
+
+Here is what a user should be able to do with your app:
+- search or select a repository
+- view the list issues for a repository
+- filter closed/open issues
+- View the details of an issue in a dialog or in a new page
 
 
 
