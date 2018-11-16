@@ -60,13 +60,13 @@ If you're using storybook, check out this link to learn how to export your story
 
 ## Objectives (Part 2/2)
 
-The final step for this lab is to use the components you built to create an fully functionnal app.
+The final step for this lab is to use the components you built to create a fully functionnal app.
 
 Here is what a user should be able to do with your app:
 - search or select a repository
-- view the list issues for a repository
+- view the list of issues for a repository
 - filter closed/open issues
-- View the details of an issue in a dialog or in a new page
+- view the details of an issue in a dialog or in a new page
 
 
 
