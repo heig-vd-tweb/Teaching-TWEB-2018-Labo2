@@ -60,7 +60,7 @@ If you're using storybook, check out this link to learn how to export your story
 
 ## Objectives (Part 2/2)
 
-The final step for this lab is to use the components you built to create an fully functionnal app.
+The final step for this lab is to use the components you built to create a fully functionnal app.
 
 Here is what a user should be able to do with your app:
 - search or select a repository
@@ -76,6 +76,5 @@ Here is what a user should be able to do with your app:
 - React components that implement Google's Material Design [material-ui](https://material-ui.com/)
 - React UI library that follows the Ant Design specification [ant.design](https://ant.design/docs/react/introduce)
 - Declarative routing for react [React router](https://reacttraining.com/react-router/web/guides/quick-start) 
-
 
 
