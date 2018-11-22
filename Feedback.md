@@ -9,24 +9,24 @@ Check this project for an example: [paulnta/github-issues-viewer](https://github
 ```
 /src
   /components
-  	InputSearch.js
-  	IssueList.js
-		IssueListItem.js
-		IssueComment.js
-		RepoListItem.js
-		...
+    InputSearch.js
+    IssueList.js
+    IssueListItem.js
+    IssueComment.js
+    RepoListItem.js
+    ...
   /routes
-  	IssuePage.js
-  	IssuesPage.js
-  	SearchPage.js
-  	index.js
-  	...
+    IssuePage.js
+    IssuesPage.js
+    SearchPage.js
+    index.js
+    ...
   /stories
   /svgIcons
   /lib
     /utils
-    	time-helpers.js
-   	 	...
+      time-helpers.js
+      ...
   App.js
   index.js
 ```
@@ -65,7 +65,7 @@ Components are divided in two categories — Containers and Presentational compo
 
 For example the following component `IssueListItem` looks like a traditional template. It is concerned only about presentation. 
 
-```react
+```js
 import React from "react";
 import PropTypes from "prop-types";
 import cx from 'classnames';
@@ -114,7 +114,7 @@ export default withStyles(styles)(IssueListItem);
 
 The following container component `IssueList` is tasked with fetching data (using react-apollo) and then rendering the related view component. It is also responsible to implement the logic for navigation using `Link` from example react-router-dom. 
 
-```react
+```js
 // IssueList.js
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -161,7 +161,6 @@ IssueList.propTypes = {
 
 export default IssueList;
 ```
-
 
 
 ## Storybook
