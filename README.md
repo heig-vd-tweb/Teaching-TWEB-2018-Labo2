@@ -64,9 +64,9 @@ The final step for this lab is to use the components you built to create a fully
 
 Here is what a user should be able to do with your app:
 - search or select a repository
-- view the list issues for a repository
+- view the list of issues for a repository
 - filter closed/open issues
-- View the details of an issue in a dialog or in a new page
+- view the details of an issue in a dialog or in a new page
 
 
 
