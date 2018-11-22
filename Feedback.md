@@ -183,7 +183,7 @@ The `addDecorator` method accepts a function that returns a component. This API 
 
 
 
-```react
+```js
 import React from 'react';
 import { configure, addDecorator } from '@storybook/react';
 import Theme from '../src/components/Theme';
