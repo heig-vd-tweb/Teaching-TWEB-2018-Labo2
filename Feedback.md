@@ -65,7 +65,7 @@ Components are divided in two categories — Containers and Presentational compo
 
 For example the following component `IssueListItem` looks like a traditional template. It is concerned only about presentation. 
 
-```js
+```jsx
 import React from "react";
 import PropTypes from "prop-types";
 import cx from 'classnames';
@@ -114,7 +114,7 @@ export default withStyles(styles)(IssueListItem);
 
 The following container component `IssueList` is tasked with fetching data (using react-apollo) and then rendering the related view component. It is also responsible to implement the logic for navigation using `Link` from example react-router-dom. 
 
-```js
+```jsx
 // IssueList.js
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -183,7 +183,7 @@ The `addDecorator` method accepts a function that returns a component. This API 
 
 
 
-```js
+```jsx
 import React from 'react';
 import { configure, addDecorator } from '@storybook/react';
 import Theme from '../src/components/Theme';
